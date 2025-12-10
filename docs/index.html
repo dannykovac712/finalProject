@@ -88,7 +88,7 @@
     </p>
     <p>
       Prompts use a consistent format: an instruction header describing the expected
-      JSON fields, the theorem text, and explicit <code>&lt;json&gt;</code> delimiters.
+      JSON fields, the theorem text, and explicit json.
       Training uses a standard causal language modeling objective, but loss is applied
       only to the JSON portion of the output (prompt tokens are excluded). This encourages
       the model to focus on generating well-formed structured outputs.
